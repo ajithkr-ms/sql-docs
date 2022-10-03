@@ -38,7 +38,7 @@ This article provides a list of the rules used to assess the feasibility of migr
  | MIDatabaseSize | Database | Issue | [Azure SQL Managed Instance does not support database size greater than 8 TB.](#MIDatabaseSize<) | 
  | MIHeterogeneousMSDTCTransactSQL | Database | Issue | [BEGIN DISTRIBUTED TRANSACTION with non-SQL Server remote server isn't supported in Azure SQL Managed Instance.](#MIHeterogeneousMSDTCTransactSQL) | 
  | MIHomogeneousMSDTCTransactSQL | Database | Issue | [BEGIN DISTRIBUTED TRANSACTION is supported across multiple servers for Azure SQL Managed Instance.](#MIHomogeneousMSDTCTransactSQL) | 
- | MIInstanceSize | Instance | Warning | [Maximum instance storage size in Azure SQL Managed Instance cannot be greater than 8 TB.](#MIInstanceSize<) | 
+ | MIInstanceSize | Instance | Warning | [Maximum instance storage size in Azure SQL Managed Instance cannot be greater than 8 TB.](#MIInstanceSize) | 
  | MultipleLogFiles | Database | Issue | [Azure SQL Managed Instance does not support databases with multiple log files.](#MultipleLogFiles<) | 
  | NextColumn | Database | Issue | [Tables and Columns named NEXT will lead to an error In Azure SQL Managed Instance.](#NextColumn) | 
  | NonANSILeftOuterJoinSyntax | Database | Warning | [Non-ANSI style left outer join is no longer supported and has been removed.](#NonANSILeftOuterJoinSyntax) | 
@@ -317,7 +317,7 @@ More information: [Hardware characteristics of Azure SQL Managed Instance ](../.
 
 
 
-## MI instance size<a id="MIInstanceSize<"></a>
+## MI instance size<a id="MIInstanceSize"></a>
 
 **Title: Maximum instance storage size in Azure SQL Managed Instance cannot be greater than 8 TB.**   
 **Category**: Warning   
